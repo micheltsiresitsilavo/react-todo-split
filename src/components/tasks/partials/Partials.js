@@ -3,7 +3,7 @@ const NavBar = () => {
     <div className="navBar">
       <a href="#">Todo Split</a>
 
-      <a href="https://github.com/micheltsiresitsilavo/react-basic-todo">
+      <a href="https://github.com/micheltsiresitsilavo/react-todo-split">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="30"
