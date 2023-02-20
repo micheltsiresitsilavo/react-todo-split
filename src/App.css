@@ -1,0 +1,132 @@
+*,
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #8e7d7d54;
+  color: #fff;
+  min-height: 100vh;
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+.navBar {
+  display: flex;
+  background-color: orange;
+  color: #fff;
+  padding: 1em;
+  justify-content: space-around;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+}
+
+.ListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.List {
+  list-style: none;
+  margin: 20px 30px;
+  min-width: 75%;
+}
+
+.List_Item {
+  margin: 4px 0;
+  background: #524a4a;
+  color: #fffefe;
+  font-size: large;
+}
+
+.ListeHafa {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.Item {
+  margin-left: 10px;
+}
+
+.LineThrough {
+  font-style: italic;
+  text-decoration-line: line-through;
+  color: rgb(107, 109, 109);
+}
+
+.Btn {
+  background-color: orange;
+  color: #fff;
+  padding: 15px;
+  cursor: pointer;
+  border: none;
+}
+.BtnClear {
+  background-color: orange;
+  color: #fff;
+  padding: 15px;
+  cursor: pointer;
+  border: none;
+}
+
+.BtnAdd {
+  background-color: orange;
+  color: #fff;
+  padding: 9px 6px;
+  cursor: pointer;
+  border: none;
+}
+
+.BtnAdd:hover,
+.BtnClear:hover {
+  box-shadow: 5px 5px #524a4a;
+  transition: ease-in 300ms;
+}
+
+form:hover {
+  box-shadow: 5px 5px #524a4a;
+  transition: ease-in 300ms;
+}
+
+.Flexa {
+  display: flex;
+  align-items: center;
+}
+
+.Suite {
+  padding: 15px 20px;
+}
+
+.InsertInput {
+  padding: 9px 6px;
+  border: none;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  background-color: #524a4a;
+  padding: 20px;
+  justify-content: space-between;
+  font-style: italic;
+  position: fixed;
+  bottom: 0;
+  width: 50%;
+}
+
+footer a {
+  color: orange;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
